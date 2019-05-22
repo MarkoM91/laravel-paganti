@@ -14,3 +14,16 @@ h1 {
   text-align: center;
 }
 
+.box-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.box {
+  border: 1px solid black;
+  color: black;
+  height: 80px;
+}
+
