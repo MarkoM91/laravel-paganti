@@ -20,15 +20,28 @@ h1 {
   text-align: center;
 }
 
+
+
 .box-container {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  width: 800px;
+  height: 80px;
+  margin: auto;
 }
 
 .box {
   border: 1px solid black;
   color: black;
+
+  text-align: center;
+
   height: 80px;
+  width: calc(100% / 4);
+}
+
+.line_height {
+  line-height: 80px;
 }
