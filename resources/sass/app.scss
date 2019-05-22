@@ -14,13 +14,15 @@
 }
 
 h1 {
-  background: red;
+  background: rgb(183, 3, 3);
   color: white;
 
   text-align: center;
 }
 
-
+body {
+  background-color: rgb(242, 4, 4);
+}
 
 .box-container {
   display: flex;
@@ -34,7 +36,7 @@ h1 {
 
 .box {
   border: 1px solid black;
-  color: black;
+  color: white;
 
   text-align: center;
 
@@ -44,4 +46,9 @@ h1 {
 
 .line_height {
   line-height: 80px;
+}
+
+.non_line {
+
+  margin-top: 20px;
 }
