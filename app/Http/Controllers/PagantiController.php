@@ -7,7 +7,8 @@ use DB;
 
 class PagantiController extends Controller
 {
-    function getPaganti() {
+    function index()
+    { 
 
       $paganti = DB::select('
 
@@ -16,6 +17,6 @@ class PagantiController extends Controller
 
       ');
 
-      return view('page.home', ["paganti" => $paganti]);  
+      return view('page.home', ["paganti" => $paganti]);
     }
 }

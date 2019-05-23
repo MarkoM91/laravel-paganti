@@ -10,7 +10,7 @@
     </head>
     <body>
       <header>
-          <h1>laravel-paganti</h1>
+          <h1><a href="{{ URL::route('paganti.index') }}">laravel-paganti</a></h1>
       </header>
         <div class="content">
           @yield('content')

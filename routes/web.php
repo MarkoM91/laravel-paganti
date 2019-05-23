@@ -4,6 +4,6 @@ Route::get('/', function () {
     return view('layout.home-layout');
 });
 
-Route::get('paganti', 'PagantiController@getPaganti');
+Route::resource('paganti', 'PagantiController');
 
 ?>
