@@ -17,4 +17,10 @@ Route::get('paganti', function() {
 
 })->name('paganti');
 
+Route::get('home', function() {
+
+  return view('layout.home-layout');
+
+})->name('home');
+
 ?>

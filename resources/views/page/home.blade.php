@@ -1,6 +1,7 @@
 @extends('layout.home-layout')
 
 @section('content')
+<a href="{{ route('home') }}"><i class="fas fa-home"></i></a>
 
 @foreach($paganti as $pagante)
   <div class="box-container">
