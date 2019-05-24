@@ -10,7 +10,7 @@
     </head>
     <body>
       <header>
-          <h1><a href="{{ route('paganti') }}">laravel-paganti</a></h1>
+          <h1>laravel-paganti <a href="{{ route('paganti') }}"><i class="fas fa-database"></i></a></h1>
       </header>
         <div class="content">
           @yield('content')
